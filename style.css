@@ -1,0 +1,287 @@
+body{
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+   
+    
+
+    
+}
+
+.upper
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    flex-direction: column;
+    color: white;
+
+   
+    
+    
+}
+
+.upperheader{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
+  
+    
+}
+
+.upperheaderleft{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.upperheaderright
+{
+    display: flex;
+}
+ul
+{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+    
+}
+a{
+    font-size: 18px;
+    color: #e5e7eB;
+    text-decoration: none;
+    
+}
+
+
+
+.lowerheader
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    
+    
+    
+    
+}
+
+.lowerheaderleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 330px;
+ 
+    
+}
+
+.lowerheaderright{
+    display: flex;
+    background-color: gray;
+    width: 500px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+
+
+}
+
+
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+
+.button1{
+    background-color: #3882f6;
+    color: #e5e7eB;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border:2px #3882f6;
+}
+.uppermiddle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
+
+.uppermiddle1{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+
+}
+
+.uppermiddle2{
+    display: flex;
+    justify-content: space-between;
+    border: 2px orange;
+}
+
+.i1,.i2,.i3,.i4{
+    display: flex;
+    flex-direction: column;
+    max-width:200px;
+}
+
+.image1, .image2, .image3, .image4{
+    
+    
+    width :200px;
+    height:200px;
+    border-width:10 10p;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+.imagetext1,.imagetext2,.imagetext3,.imagetext4{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+.lowermiddle{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eB;
+    align-content: center;
+    padding-top: 100px;
+}
+
+.lowermiddle1{
+    align-self: flex-start;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: lighter;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.lowermiddle2{
+    align-self: flex-end;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.lower{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding:100px;
+    max-height:350px;
+}
+.lowerimage{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 1300px;
+    height:150px;
+    border-radius: 10px;
+}
+
+.lowerimageleft{
+
+    display:flex;   
+    flex-direction:column ;
+    justify-content: center;
+
+    
+
+}
+
+.lowerimageleftup
+{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin:0px;
+    padding:0px;
+    
+
+}
+.h2classedit{
+    margin:0px;
+}
+
+.lowerimageleftdown{
+    
+    color:#F9FAF8;
+}
+
+.lowerimageright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button2{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-width: 10 10px;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+   
+}
+
+.lastpara{
+    color: #F9FAF8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+
+/*Things to solve - end to end edges of upper, lower etc - Done
+border of button and image placeholder
+get the lowerheader's heading and paragraph closer*/
